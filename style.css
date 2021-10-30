@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
+
+:root {
+    --titles: #8a1212;
+    --cards: #f7bc05;
+    --text-bords: #292824;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url("./images/background-food.png");
+    background-size: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3.5rem;
+    color: var(--titles);
+    background: var(--cards);
+    line-height: 1.2;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.nav-website {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.5rem;
+    padding-top: 0.8rem;
+}
+
+.link-nav {
+    color: black;
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    background: var(--cards);
+    opacity: 0.8;
+}
+
+.main-website {
+    width: 100%;
+    display: flex;
+    height: 278px;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.cards-website {
+    max-width: 250px;
+    max-height: 180px;
+    font-size: 1.5rem;
+    border: 1px solid var(--text-bords);
+    border-radius: 10px;
+    background: var(--cards);
+    padding: 1rem 1rem;
+    vertical-align: center;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid var(--titles);
+    margin-top: 10px;
+}
+
+ul li {
+    display:inline;
+    padding-left:120px;
+    padding-right:120px;
+    background: var(--cards);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.main-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+.menu-cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    font-size: 1.5rem;
+    border: 10px solid var(--titles);
+    border-radius: 10px;
+    background: var(--cards);
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+}
+.menu-image {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+}
+
+.main-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.contact-card {
+    max-width: 300px;
+    font-size: 1.8rem;
+    background-color: var(--cards);
+    border: 10px solid var(--titles);
+    border-radius: 10px;
+    padding: 1rem 1rem;
+}
+
+.contact-card img {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+}
+
+.fab {
+    padding-left: 5px;
+}
